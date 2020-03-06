@@ -9,3 +9,20 @@ Staged -> Momento em que o arquivo fica marcado para ir para próxima versão.
 Depois de commitado, todos os arquivos que estão marcados como staged são levados para uma nova versão e marcados com unmodified
 
 Commit - Momento em que é criado um snapshoot uma imagem dos arquivos
+
+git commit -m "Observação, coloque informações relevantes no commit, dizendo o que foi feito como correções de bug,novas funcionalidade e etc...";
+
+
+LOG
+
+git log 
+git shorlog
+git log --author="name"
+git log --graph /*Mostra graficamente os merges*/
+
+//Informações do commit
+git show hashDoCommit
+
+//Revisar quais alterações foram feitas
+git diff
+git diff --name-only
