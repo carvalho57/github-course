@@ -34,5 +34,8 @@ git commit -am "message"
 
 FIZ BESTEIRA E AGORA
 
-/*Muda de modified to unmodified restaurando ao commit anterio*/
+/*Retira as mudanças feitas nos arquivos*/
 git checkout nomeArquivo
+/*Retirar do stage, volta para o ponteiro que ja estou*/
+git reset HEAD nomeArquivo
+
