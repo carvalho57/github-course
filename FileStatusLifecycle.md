@@ -42,3 +42,8 @@ git reset HEAD nomeArquivo
 git reset --soft   hash do anterior
 git reset --mixed hash do anterior
 git reset --hard hash do anterior
+
+
+Já subi as alterações para o repositório o que fazer?
+Você pode usar o git reset --hard <hash_do_commit_anterior> e depois forçar a subida com git push origin master --force
+
