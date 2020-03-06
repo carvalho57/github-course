@@ -23,7 +23,7 @@ git log --graph /*Mostra graficamente os merges*/
 //Informações do commit
 git show hashDoCommit
 
-//Revisar quais alterações foram feitas
+/*Revisar quais alterações foram feitas*/
 git diff
 git diff --name-only
 
@@ -33,3 +33,6 @@ git commit -am "message"
 -a:stage files que foram modificados ou removidos, mas arquivos novos que não foram adicionados não são afetados
 
 FIZ BESTEIRA E AGORA
+
+/*Muda de modified to unmodified restaurando ao commit anterio*/
+git checkout nomeArquivo
