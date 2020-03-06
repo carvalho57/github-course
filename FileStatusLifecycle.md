@@ -31,3 +31,5 @@ git diff --name-only
 git commit -am "message"
 
 -a:stage files que foram modificados ou removidos, mas arquivos novos que não foram adicionados não são afetados
+
+FIZ BESTEIRA E AGORA
