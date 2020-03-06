@@ -39,3 +39,6 @@ git checkout nomeArquivo
 /*Retirar do stage, volta para o ponteiro que ja estou*/
 git reset HEAD nomeArquivo
 
+git reset --soft   hash do anterior
+git reset --mixed hash do anterior
+git reset --hard hash do anterior
