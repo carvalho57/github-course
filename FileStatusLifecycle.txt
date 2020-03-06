@@ -1,0 +1,9 @@
+Untracked -> Arquivo acabou de ser adicionado mas ainda não foi visto pelo git
+
+Unmodified -> Depois de adionar o arquivo ela passa a ser unmodified, ele existe no git mas não foi modificado
+
+Modified -> Arquivo modificado
+
+Staged -> Momento em que o arquivo fica marcado para ir para próxima versão.
+
+Depois de commitado, todos os arquivos que estão marcados como staged são levados para uma nova versão e marcados com unmodified
