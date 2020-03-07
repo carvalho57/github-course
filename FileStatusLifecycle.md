@@ -47,3 +47,35 @@ git reset --hard hash do anterior
 Já subi as alterações para o repositório o que fazer?
 Você pode usar o git reset --hard <hash_do_commit_anterior> e depois forçar a subida com git push origin master --force
 
+## Branch
+### O que é?
+É um ponteiro móvel que leva um commit
+
+### Porque usar?
+
+* Poder modificarsem alterar o local principal (master)
+* Facilmente "desligável"
+* Múltiplas pessoas trabalhando
+* Evita conflitos
+### Como usar?
+git checkout -b  nomeBranch
+git branch --em qual branch estou 
+git checkout nomeBranch --muda de branch
+git branch -D nomeBranch -- apagando branch
+
+### Unindo Branches
+
+- Merge
+Vantagens
+* Operação não destrutiva
+
+Contra
+* Commit extra, que não faz nada só junta coisas.
+* Histórico poluído.
+
+- Rebase
+Vantagens
+* Evita commits extras
+* Histórico linear
+Contra
+* Perde ordem cronológica
