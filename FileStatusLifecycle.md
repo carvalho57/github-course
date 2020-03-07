@@ -79,3 +79,27 @@ Vantagens
 * Histórico linear
 Contra
 * Perde ordem cronológica
+
+###  Como unilos
+git merge NomeBranch
+
+git rebase NomeBranch
+
+## Extras
+Estou com uma trabalho é quero mudar para outra branch mas não quero levar as alterações
+comigo para nova branch o que fazer
+
+git stash
+git stash apply -- para retornar com as modificações
+
+## .gitignore 
+-- Arquivo utilizado para deixar untracked os arquivos que você não que subir ou manter snapshoots
+
+### Alias
+
+git config --global alias.atalhoname o que o comando faz
+EX: git config --global alias.s status;
+
+### Salvando sua sexta-feira
+--Retorna as modificações do commit, mas sem peder o trabalho feito
+git revert hashgit
